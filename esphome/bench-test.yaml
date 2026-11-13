@@ -1,14 +1,20 @@
-# Banc d'essai S21 sur ESP32 ordinaire. À ADAPTER (broches, secrets).
-# Lecture d'abord; ne pas écrire de commandes avant d'avoir validé les lectures.
+# Banc d'essai S21 sur ESP32-C6 (Waveshare ESP32-C6-Zero / mini). NON TESTÉ.
+# À valider sur la carte : broches TX/RX (GPIO16/GPIO17 ici, à confirmer sur le brochage de la carte).
+# Étapes : 1) flasher et vérifier Wi-Fi/API; 2) boucle TX<->RX; 3) brancher au S21 via le convertisseur de niveau.
+# Ne pas utiliser le climate avant d'avoir vérifié que les lectures sont bonnes.
 esphome:
   name: s21-bench
 
 esp32:
-  board: esp32dev
+  board: esp32-c6-devkitc-1
+  variant: esp32c6
+  flash_size: 8MB          # Waveshare C6-Zero = ESP32-C6FH8. Mettre 4MB pour une carte N4.
+  framework:
+    type: esp-idf
 
 logger:
   level: DEBUG
-  baud_rate: 0        # libère l'UART0; logs via Wi-Fi/API
+  hardware_uart: USB_SERIAL_JTAG   # logs par le port USB-C; libère UART0
 
 api:
 ota:
@@ -23,12 +29,19 @@ external_components:
 
 uart:
   - id: s21_uart
-    tx_pin: GPIO17
-    rx_pin: GPIO16
+    tx_pin: GPIO16
+    rx_pin: GPIO17
     baud_rate: 2400
     data_bits: 8
     parity: EVEN
     stop_bits: 2
+    # Pas d'inversion : le convertisseur de niveau BSS138 n'inverse pas.
+    # Décommenter pour voir les octets bruts (diagnostic) :
+    # debug:
+    #   direction: BOTH
+    #   dummy_receiver: false
+    #   sequence:
+    #     - lambda: UARTDebug::log_hex(direction, bytes, ' ');
 
 daikin_s21:
   tx_uart: s21_uart
