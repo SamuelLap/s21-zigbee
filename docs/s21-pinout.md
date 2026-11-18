@@ -31,3 +31,6 @@ Source du brochage : wiki ESP32-Faikout. Les broches 1, 4 et 5 ont été confirm
 - [x] Tensions des broches 1 à 5
 - [ ] Courant disponible sur la broche 1 (test sous charge)
 - [ ] Premier échange S21 réel avec l'ESP32-C6
+
+## Schéma de filage
+Schéma en échelle (style nord-américain) du banc d'essai : [`ladder-wiring.svg`](ladder-wiring.svg). Rév. A, **non validé** sur le matériel.

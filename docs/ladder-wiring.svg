@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1022" role="img" aria-label="Schéma de filage en échelle du banc S21 avec ESP32-C6">
+
+    <style>
+      .t{font-family:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;fill:#14181d;font-size:12px}
+      .tb{font-weight:600}
+      .tm{fill:#5b6670;font-size:11px}
+      .ts{font-size:10.5px}
+      .th{font-family:'IBM Plex Sans',system-ui,sans-serif;font-weight:600;font-size:13px;letter-spacing:.08em;fill:#14181d}
+      .hd{stroke:#c9d1d8;stroke-width:1}
+      .rail{stroke:#14181d;stroke-width:3.5;fill:none}
+      .w{stroke-width:2;fill:none}
+      .g{stroke:#14181d} .p14{stroke:#c62828} .p5{stroke:#d9480f} .p33{stroke:#b7791f} .sg{stroke:#1565c0}
+      .dev{fill:#ffffff;stroke:#14181d;stroke-width:1.8}
+      .opt{fill:#ffffff;stroke:#14181d;stroke-width:1.4;stroke-dasharray:5 4}
+      .dash{stroke-dasharray:5 4}
+      .dot{fill:#14181d}
+      .nc{stroke:#5b6670;stroke-width:2;fill:none}
+    </style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker></defs>
+<text class="th" x="20" y="30">A · ALIMENTATION 14,5 V c.c. (PRISE S21)</text>
+<line class="hd" x1="20" y1="38" x2="980" y2="38"/>
+<line class="rail" x1="120" y1="78" x2="120" y2="150"/>
+<line class="rail" x1="880" y1="78" x2="880" y2="150"/>
+<text class="t tb" x="120" y="70" text-anchor="middle">+14,5 V</text>
+<text class="t tb" x="880" y="70" text-anchor="middle">0 V</text>
+<text class="t tm ts" x="120" y="56" text-anchor="middle">X1-4</text>
+<text class="t tm ts" x="880" y="56" text-anchor="middle">X1-5</text>
+<text class="t tb" x="62" y="119" text-anchor="middle" style="font-size:15px">1</text>
+<circle class="dot" cx="120" cy="115" r="4"/><circle class="dot" cx="880" cy="115" r="4"/>
+<line class="w p14" x1="120" y1="115" x2="190" y2="115"/>
+<text class="t tm ts" x="155" y="108" text-anchor="middle">1</text>
+<rect class="opt" x="190" y="99" width="80" height="32" rx="2"/>
+<text class="t tb" x="230" y="119" text-anchor="middle">F1</text>
+<text class="t tm ts" x="230" y="145" text-anchor="middle">0,5 A (recommandé)</text>
+<line class="w p14" x1="270" y1="115" x2="330" y2="115"/>
+<text class="t tm ts" x="300" y="108" text-anchor="middle">1A</text>
+<rect class="dev" x="330" y="90.0" width="300" height="50" rx="2"/>
+<text class="t tb" x="338" y="104.0" style="font-size:12px">U1</text>
+<text class="t" x="488.0" y="115" text-anchor="middle">Mini360 · entrée</text>
+<text class="t tm ts" x="488.0" y="129" text-anchor="middle">IN+ ▸ IN−  (4,75–23 V)</text>
+<line class="w g" x1="630" y1="115" x2="880" y2="115"/>
+<text class="t tm ts" x="755" y="108" text-anchor="middle">0</text>
+<line class="w g dash" x1="480" y1="140" x2="480" y2="160"/>
+<text class="t tm ts" x="490" y="166">OUT+ ▸ rail +5 V (2) · OUT− ▸ 0 V (0) · régler à 5,0 V avant de raccorder</text>
+<text class="th" x="20" y="205">B · RAIL +5 V (SORTIE U1)</text>
+<line class="hd" x1="20" y1="213" x2="980" y2="213"/>
+<line class="rail" x1="120" y1="248" x2="120" y2="352"/>
+<line class="rail" x1="880" y1="248" x2="880" y2="352"/>
+<text class="t tb" x="120" y="240" text-anchor="middle">+5 V</text>
+<text class="t tb" x="880" y="240" text-anchor="middle">0 V</text>
+<text class="t tm ts" x="120" y="226" text-anchor="middle">nœud 2</text>
+<text class="t tm ts" x="880" y="226" text-anchor="middle">nœud 0</text>
+<text class="t tb" x="62" y="274" text-anchor="middle" style="font-size:15px">2</text>
+<circle class="dot" cx="120" cy="270" r="4"/><circle class="dot" cx="880" cy="270" r="4"/>
+<line class="w p5" x1="120" y1="270" x2="330" y2="270"/>
+<text class="t tm ts" x="225" y="263" text-anchor="middle">2</text>
+<rect class="dev" x="330" y="250.0" width="300" height="40" rx="2"/>
+<text class="t tb" x="338" y="264.0" style="font-size:12px">U2</text>
+<text class="t" x="488.0" y="270" text-anchor="middle">ESP32-C6 mini</text>
+<text class="t tm ts" x="488.0" y="284" text-anchor="middle">broche 5V ▸ GND</text>
+<line class="w g" x1="630" y1="270" x2="880" y2="270"/>
+<text class="t tm ts" x="755" y="263" text-anchor="middle">0</text>
+<text class="t tb" x="62" y="330" text-anchor="middle" style="font-size:15px">3</text>
+<circle class="dot" cx="120" cy="326" r="4"/><circle class="dot" cx="880" cy="326" r="4"/>
+<line class="w p5" x1="120" y1="326" x2="330" y2="326"/>
+<text class="t tm ts" x="225" y="319" text-anchor="middle">2</text>
+<rect class="dev" x="330" y="306.0" width="300" height="40" rx="2"/>
+<text class="t tb" x="338" y="320.0" style="font-size:12px">U3</text>
+<text class="t" x="488.0" y="326" text-anchor="middle">Convertisseur de niveau · HV</text>
+<text class="t tm ts" x="488.0" y="340" text-anchor="middle">HV ▸ GND  (côté 5 V)</text>
+<line class="w g" x1="630" y1="326" x2="880" y2="326"/>
+<text class="t tm ts" x="755" y="319" text-anchor="middle">0</text>
+<text class="th" x="20" y="392">C · RAIL +3,3 V (SORTIE U2)</text>
+<line class="hd" x1="20" y1="400" x2="980" y2="400"/>
+<line class="rail" x1="120" y1="436" x2="120" y2="494"/>
+<line class="rail" x1="880" y1="436" x2="880" y2="494"/>
+<text class="t tb" x="120" y="428" text-anchor="middle">+3,3 V</text>
+<text class="t tb" x="880" y="428" text-anchor="middle">0 V</text>
+<text class="t tm ts" x="120" y="414" text-anchor="middle">U2 broche 3V3</text>
+<text class="t tm ts" x="880" y="414" text-anchor="middle">nœud 0</text>
+<text class="t tb" x="62" y="470" text-anchor="middle" style="font-size:15px">4</text>
+<circle class="dot" cx="120" cy="466" r="4"/><circle class="dot" cx="880" cy="466" r="4"/>
+<line class="w p33" x1="120" y1="466" x2="330" y2="466"/>
+<text class="t tm ts" x="225" y="459" text-anchor="middle">3</text>
+<rect class="dev" x="330" y="446.0" width="300" height="40" rx="2"/>
+<text class="t tb" x="338" y="460.0" style="font-size:12px">U3</text>
+<text class="t" x="488.0" y="466" text-anchor="middle">Convertisseur de niveau · LV</text>
+<text class="t tm ts" x="488.0" y="480" text-anchor="middle">LV ▸ GND  (côté 3,3 V)</text>
+<line class="w g" x1="630" y1="466" x2="880" y2="466"/>
+<text class="t tm ts" x="755" y="459" text-anchor="middle">0</text>
+<text class="th" x="20" y="535">D · SIGNAUX UART — 2400 bauds, 8 bits, parité paire, 2 bits d'arrêt (8E2)</text>
+<line class="hd" x1="20" y1="543" x2="980" y2="543"/>
+<text class="t tm" x="20" y="560">Référence commune 0 V (nœud 0). Côté thermopompe 5 V, côté ESP32-C6 3,3 V. Pas d'inversion de signal.</text>
+<text class="t tb" x="62" y="609" text-anchor="middle" style="font-size:15px">5</text>
+<rect class="dev" x="130" y="583.0" width="200" height="44" rx="2"/>
+<text class="t tb" x="138" y="597.0" style="font-size:12px">X1-2</text>
+<text class="t" x="238.0" y="605" text-anchor="middle">TX unité</text>
+<text class="t tm ts" x="238.0" y="619" text-anchor="middle">sortie · 5 V</text>
+<line class="w sg" x1="330" y1="605" x2="410" y2="605" marker-end="url(#ar)"/>
+<text class="t tm ts" x="370.0" y="598" text-anchor="middle">10</text>
+<rect class="dev" x="410" y="583.0" width="200" height="44" rx="2"/>
+<text class="t tb" x="418" y="597.0" style="font-size:12px">U3</text>
+<text class="t" x="518.0" y="605" text-anchor="middle">canal 1</text>
+<text class="t tm ts" x="518.0" y="619" text-anchor="middle">HV1 ▸ LV1</text>
+<line class="w sg" x1="610" y1="605" x2="690" y2="605" marker-end="url(#ar)"/>
+<text class="t tm ts" x="650.0" y="598" text-anchor="middle">11</text>
+<rect class="dev" x="690" y="583.0" width="190" height="44" rx="2"/>
+<text class="t tb" x="698" y="597.0" style="font-size:12px">U2</text>
+<text class="t" x="793.0" y="605" text-anchor="middle">GPIO17</text>
+<text class="t tm ts" x="793.0" y="619" text-anchor="middle">RX · 3,3 V</text>
+<text class="t tb" x="62" y="679" text-anchor="middle" style="font-size:15px">6</text>
+<rect class="dev" x="130" y="653.0" width="200" height="44" rx="2"/>
+<text class="t tb" x="138" y="667.0" style="font-size:12px">U2</text>
+<text class="t" x="238.0" y="675" text-anchor="middle">GPIO16</text>
+<text class="t tm ts" x="238.0" y="689" text-anchor="middle">TX · 3,3 V</text>
+<line class="w sg" x1="330" y1="675" x2="410" y2="675" marker-end="url(#ar)"/>
+<text class="t tm ts" x="370.0" y="668" text-anchor="middle">12</text>
+<rect class="dev" x="410" y="653.0" width="200" height="44" rx="2"/>
+<text class="t tb" x="418" y="667.0" style="font-size:12px">U3</text>
+<text class="t" x="518.0" y="675" text-anchor="middle">canal 2</text>
+<text class="t tm ts" x="518.0" y="689" text-anchor="middle">LV2 ▸ HV2</text>
+<line class="w sg" x1="610" y1="675" x2="690" y2="675" marker-end="url(#ar)"/>
+<text class="t tm ts" x="650.0" y="668" text-anchor="middle">13</text>
+<rect class="dev" x="690" y="653.0" width="190" height="44" rx="2"/>
+<text class="t tb" x="698" y="667.0" style="font-size:12px">X1-3</text>
+<text class="t" x="793.0" y="675" text-anchor="middle">RX unité</text>
+<text class="t tm ts" x="793.0" y="689" text-anchor="middle">entrée · 5 V</text>
+<text class="t tb" x="62" y="749" text-anchor="middle" style="font-size:15px">7</text>
+<rect class="dev" x="130" y="723.0" width="200" height="44" rx="2"/>
+<text class="t tb" x="138" y="737.0" style="font-size:12px">X1-1</text>
+<text class="t" x="238.0" y="745" text-anchor="middle">+5 V</text>
+<text class="t tm ts" x="238.0" y="759" text-anchor="middle">sortie (courant inconnu)</text>
+<line class="nc dash" x1="330" y1="745" x2="470" y2="745"/>
+<path class="nc" d="M470,735 L490,755 M490,735 L470,755"/>
+<text class="t tm" x="505" y="749">non raccordé (réservé)</text>
+<line class="hd" x1="20" y1="788" x2="980" y2="788"/>
+<text class="th" x="20" y="812">X1 · PRISE S21</text>
+<rect class="dev" x="70" y="826" width="64" height="168" rx="3"/>
+<circle class="dev" cx="102" cy="850" r="8"/>
+<text class="t tb" x="102" y="854" text-anchor="middle" style="font-size:11px">1</text>
+<text class="t" x="150" y="854">+5 V</text>
+<text class="t tm ts" x="240" y="854">non raccordé</text>
+<circle class="dev" cx="102" cy="883" r="8"/>
+<text class="t tb" x="102" y="887" text-anchor="middle" style="font-size:11px">2</text>
+<text class="t" x="150" y="887">TX unité</text>
+<text class="t tm ts" x="240" y="887">nœud 10</text>
+<circle class="dev" cx="102" cy="916" r="8"/>
+<text class="t tb" x="102" y="920" text-anchor="middle" style="font-size:11px">3</text>
+<text class="t" x="150" y="920">RX unité</text>
+<text class="t tm ts" x="240" y="920">nœud 13</text>
+<circle class="dev" cx="102" cy="949" r="8"/>
+<text class="t tb" x="102" y="953" text-anchor="middle" style="font-size:11px">4</text>
+<text class="t" x="150" y="953">+14,5 V</text>
+<text class="t tm ts" x="240" y="953">nœud 1</text>
+<circle class="dev" cx="102" cy="982" r="8"/>
+<text class="t tb" x="102" y="986" text-anchor="middle" style="font-size:11px">5</text>
+<text class="t" x="150" y="986">GND</text>
+<text class="t tm ts" x="240" y="986">nœud 0</text>
+<text class="t tm ts" x="62" y="843" text-anchor="end">▼</text>
+<text class="t tm ts" x="20" y="1014">▼ = repère broche 1 sur la carte · JST PA 2 mm, 5 voies · fil 24 AWG</text>
+<rect class="dev" x="520" y="822" width="460" height="172" rx="2"/>
+<text class="t tb" x="536" y="846">THERMOPOMPE DAIKIN FTXM12WVJU9</text>
+<text class="t" x="536" y="872">Passerelle S21 · banc d'essai ESP32-C6</text>
+<text class="t" x="536" y="898">Schéma de filage en échelle</text>
+<text class="t tm" x="536" y="924">Rév. A · 2026-11-17 · Sam</text>
+<text class="t tm" x="536" y="950">Alim. S21 : 14,5 V c.c. (mesuré) · UART 2400 8E2</text>
+<text class="t tb" x="536" y="976">ÉTAT : NON VALIDÉ. Vérifier avant mise sous tension.</text>
+</svg>
