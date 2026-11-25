@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 610" role="img" aria-label="Schéma visuel des composants du banc S21 branchés entre eux">
+<style>
+      .t{font-family:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;fill:#14181d;font-size:12px}
+      .tb{font-weight:600} .tm{fill:#5b6670;font-size:10.5px}
+      .lb{font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace;font-size:9.5px;fill:#fff}
+      .lbd{fill:#1b1f24}
+      .hd{font-family:'IBM Plex Sans',system-ui,sans-serif;font-weight:600;font-size:13px;fill:#14181d;letter-spacing:.04em}
+      .halo{stroke:#ffffff;stroke-width:9;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .wr{stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .c14{stroke:#c62828} .c5{stroke:#d9480f} .c33{stroke:#d4a017} .c0{stroke:#14181d} .cs{stroke:#1565c0} .cs2{stroke:#7b3fb0}
+      .pin{fill:#d4af37;stroke:#7a5c00;stroke-width:1}
+      .jn{fill:#14181d}
+    </style>
+<path class="halo" d="M110,280 L150,280 L150,425 L170,425"/>
+<path class="wr c14" d="M110,280 L150,280 L150,425 L170,425"/>
+<path class="halo" d="M210,425 L230,425"/>
+<path class="wr c14" d="M210,425 L230,425"/>
+<path class="halo" d="M110,320 L130,320 L130,465 L230,465"/>
+<path class="wr c0" d="M110,320 L130,320 L130,465 L230,465"/>
+<path class="halo" d="M110,200 L330,200 L330,170 L440,170"/>
+<path class="wr cs" d="M110,200 L330,200 L330,170 L440,170"/>
+<path class="halo" d="M110,240 L360,240 L360,205 L440,205"/>
+<path class="wr cs2" d="M110,240 L360,240 L360,205 L440,205"/>
+<path class="halo" d="M380,425 L410,425 L410,240 L440,240"/>
+<path class="wr c5" d="M380,425 L410,425 L410,240 L440,240"/>
+<path class="halo" d="M410,425 L690,425 L690,310 L720,310"/>
+<path class="wr c5" d="M410,425 L690,425 L690,310 L720,310"/>
+<path class="halo" d="M380,465 L700,465 L700,345 L720,345"/>
+<path class="wr c0" d="M380,465 L700,465 L700,345 L720,345"/>
+<path class="halo" d="M580,275 L720,275"/>
+<path class="wr c0" d="M580,275 L720,275"/>
+<path class="halo" d="M580,240 L720,240"/>
+<path class="wr c33" d="M580,240 L720,240"/>
+<path class="halo" d="M580,170 L720,170"/>
+<path class="wr cs" d="M580,170 L720,170"/>
+<path class="halo" d="M580,205 L720,205"/>
+<path class="wr cs2" d="M580,205 L720,205"/>
+<circle class="jn" cx="410" cy="425" r="5"/>
+<text class="t tm" x="165" y="296" text-anchor="middle">1</text>
+<text class="t tm" x="220" y="415" text-anchor="middle">1A</text>
+<text class="t tm" x="180" y="458" text-anchor="middle">0</text>
+<text class="t tm" x="220" y="192" text-anchor="middle">10</text>
+<text class="t tm" x="250" y="232" text-anchor="middle">13</text>
+<text class="t tm" x="640" y="162" text-anchor="middle">11</text>
+<text class="t tm" x="640" y="197" text-anchor="middle">12</text>
+<text class="t tm" x="640" y="232" text-anchor="middle">3</text>
+<text class="t tm" x="640" y="268" text-anchor="middle">0</text>
+<text class="t tm" x="520" y="417" text-anchor="middle">2</text>
+<text class="t tm" x="560" y="457" text-anchor="middle">0</text>
+<text class="hd" x="20" y="116">X1 · PRISE S21</text>
+<rect x="20" y="132" width="90" height="206" rx="6" fill="#efe9da" stroke="#2a2a2a" stroke-width="2"/>
+<text class="t" x="30" y="164" style="fill:#1b1f24">1 +5 V</text>
+<circle class="pin" cx="110" cy="160" r="4.5"/>
+<text class="t" x="30" y="204" style="fill:#1b1f24">2 TX</text>
+<circle class="pin" cx="110" cy="200" r="4.5"/>
+<text class="t" x="30" y="244" style="fill:#1b1f24">3 RX</text>
+<circle class="pin" cx="110" cy="240" r="4.5"/>
+<text class="t" x="30" y="284" style="fill:#1b1f24">4 +14,5V</text>
+<circle class="pin" cx="110" cy="280" r="4.5"/>
+<text class="t" x="30" y="324" style="fill:#1b1f24">5 GND</text>
+<circle class="pin" cx="110" cy="320" r="4.5"/>
+<text class="t tm" x="26" y="150" style="fill:#555">▼</text>
+
+<path d="M122,153 L138,167 M138,153 L122,167" stroke="#5b6670" stroke-width="2.5" fill="none"/>
+<text class="t tm" x="146" y="164" text-anchor="start">non raccordée</text>
+<rect x="170" y="417" width="40" height="16" rx="8" fill="#e8eef2" stroke="#2a2a2a" stroke-width="1.6"/>
+<rect x="170" y="417" width="8" height="16" rx="3" fill="#b0b7bd"/><rect x="202" y="417" width="8" height="16" rx="3" fill="#b0b7bd"/>
+<text class="t tb" x="190" y="410" text-anchor="middle">F1</text>
+<text class="t tm" x="190" y="448" text-anchor="middle">0,5 A</text>
+<text class="hd" x="230" y="385">U1 · MINI360</text>
+<rect x="230" y="395" width="150" height="100" rx="3" fill="#2f7d4f" stroke="#17402a" stroke-width="2"/>
+<rect x="282" y="407" width="54" height="54" rx="3" fill="#9aa3ab" stroke="#5f676e"/><text class="lb lbd" x="309" y="438" text-anchor="middle">100</text>
+<rect x="246" y="400" width="26" height="18" fill="#1b1f24"/>
+<circle cx="358" cy="410" r="9" fill="#c9d1d8" stroke="#6b737a"/><path d="M352,410 L364,410" stroke="#555" stroke-width="2"/>
+<circle class="pin" cx="230" cy="425" r="4.5"/>
+<text class="lb" x="240" y="428.5" text-anchor="start">IN+</text>
+<circle class="pin" cx="230" cy="465" r="4.5"/>
+<text class="lb" x="240" y="468.5" text-anchor="start">IN−</text>
+<circle class="pin" cx="380" cy="425" r="4.5"/>
+<text class="lb" x="370" y="428.5" text-anchor="end">OUT+</text>
+<circle class="pin" cx="380" cy="465" r="4.5"/>
+<text class="lb" x="370" y="468.5" text-anchor="end">OUT−</text>
+<text class="t tm" x="230" y="512" text-anchor="start">régler la vis à 5,0 V AVANT de raccorder</text>
+<text class="hd" x="440" y="116">U3 · CONVERTISSEUR DE NIVEAU</text>
+<rect x="440" y="130" width="140" height="235" rx="4" fill="#1e4fb5" stroke="#10306e" stroke-width="2"/>
+<circle class="pin" cx="440" cy="170" r="4.5"/>
+<circle class="pin" cx="580" cy="170" r="4.5"/>
+<text class="lb" x="452" y="173.5" style="opacity:1">HV1</text>
+<text class="lb" x="568" y="173.5" text-anchor="end" style="opacity:1">LV1</text>
+<circle class="pin" cx="440" cy="205" r="4.5"/>
+<circle class="pin" cx="580" cy="205" r="4.5"/>
+<text class="lb" x="452" y="208.5" style="opacity:1">HV2</text>
+<text class="lb" x="568" y="208.5" text-anchor="end" style="opacity:1">LV2</text>
+<circle class="pin" cx="440" cy="240" r="4.5"/>
+<circle class="pin" cx="580" cy="240" r="4.5"/>
+<text class="lb" x="452" y="243.5" style="opacity:1">HV</text>
+<text class="lb" x="568" y="243.5" text-anchor="end" style="opacity:1">LV</text>
+<circle class="pin" cx="440" cy="275" r="4.5"/>
+<circle class="pin" cx="580" cy="275" r="4.5"/>
+<text class="lb" x="452" y="278.5" style="opacity:0.45">GND</text>
+<text class="lb" x="568" y="278.5" text-anchor="end" style="opacity:1">GND</text>
+<circle class="pin" cx="440" cy="310" r="4.5"/>
+<circle class="pin" cx="580" cy="310" r="4.5"/>
+<text class="lb" x="452" y="313.5" style="opacity:0.45">HV3</text>
+<text class="lb" x="568" y="313.5" text-anchor="end" style="opacity:0.45">LV3</text>
+<circle class="pin" cx="440" cy="345" r="4.5"/>
+<circle class="pin" cx="580" cy="345" r="4.5"/>
+<text class="lb" x="452" y="348.5" style="opacity:0.45">HV4</text>
+<text class="lb" x="568" y="348.5" text-anchor="end" style="opacity:0.45">LV4</text>
+<text class="lb" x="510" y="143" text-anchor="middle" style="opacity:.9">5 V · HV</text>
+<text class="lb" x="510" y="357" text-anchor="middle" style="opacity:.9">LV · 3,3 V</text>
+<text class="t tm" x="510" y="382" text-anchor="middle">côté gauche 5 V · côté droit 3,3 V</text>
+<text class="hd" x="720" y="56">U2 · ESP32-C6 MINI</text>
+<rect x="720" y="70" width="170" height="330" rx="5" fill="#1b1f24" stroke="#000" stroke-width="2"/>
+<rect x="782" y="62" width="46" height="26" rx="5" fill="#c9d1d8" stroke="#6b737a"/><text class="lb lbd" x="805" y="79" text-anchor="middle" style="fill:#1b1f24">USB-C</text>
+<rect x="800" y="150" width="62" height="62" rx="3" fill="#3a4047" stroke="#6b737a"/><text class="lb" x="831" y="186" text-anchor="middle">ESP32-C6</text>
+<rect x="760" y="338" width="120" height="50" rx="3" fill="none" stroke="#6b737a" stroke-dasharray="4 3"/><text class="lb" x="820" y="367" text-anchor="middle" style="opacity:.7">antenne</text>
+<circle class="pin" cx="720" cy="170" r="4.5"/>
+<text class="lb" x="732" y="173.5">GPIO17 · RX</text>
+<circle class="pin" cx="720" cy="205" r="4.5"/>
+<text class="lb" x="732" y="208.5">GPIO16 · TX</text>
+<circle class="pin" cx="720" cy="240" r="4.5"/>
+<text class="lb" x="732" y="243.5">3V3</text>
+<circle class="pin" cx="720" cy="275" r="4.5"/>
+<text class="lb" x="732" y="278.5">GND</text>
+<circle class="pin" cx="720" cy="310" r="4.5"/>
+<text class="lb" x="732" y="313.5">5V</text>
+<circle class="pin" cx="720" cy="345" r="4.5"/>
+<text class="lb" x="732" y="348.5">GND</text>
+<text class="t tm" x="805" y="424" text-anchor="middle">positions des broches à vérifier</text>
+<text class="t tm" x="805" y="438" text-anchor="middle">sur la carte réelle</text>
+<line x1="20" y1="535" x2="980" y2="535" stroke="#c9d1d8"/>
+<path class="wr c14" d="M24,561 L58,561"/>
+<text class="t" x="68" y="565">+14,5 V (nœuds 1, 1A)</text>
+<path class="wr c5" d="M344,561 L378,561"/>
+<text class="t" x="388" y="565">+5 V (nœud 2)</text>
+<path class="wr c33" d="M664,561 L698,561"/>
+<text class="t" x="708" y="565">+3,3 V (nœud 3)</text>
+<path class="wr c0" d="M24,587 L58,587"/>
+<text class="t" x="68" y="591">0 V / GND (nœud 0)</text>
+<path class="wr cs" d="M344,587 L378,587"/>
+<text class="t" x="388" y="591">TX unité ▸ ESP32 (10, 11)</text>
+<path class="wr cs2" d="M664,587 L698,587"/>
+<text class="t" x="708" y="591">ESP32 ▸ RX unité (12, 13)</text>
+</svg>

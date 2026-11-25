@@ -34,3 +34,5 @@ Source du brochage : wiki ESP32-Faikout. Les broches 1, 4 et 5 ont été confirm
 
 ## Schéma de filage
 Schéma en échelle (style nord-américain) du banc d'essai : [`ladder-wiring.svg`](ladder-wiring.svg). Rév. A, **non validé** sur le matériel.
+
+Schéma visuel des composants et de leurs fils : [`wiring-pictorial.svg`](wiring-pictorial.svg) (rév. A, non validé).
