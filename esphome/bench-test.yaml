@@ -1,5 +1,5 @@
 # Banc d'essai S21 sur ESP32-C6 (Waveshare ESP32-C6-Zero / mini). NON TESTÉ.
-# À valider sur la carte : broches TX/RX (GPIO16/GPIO17 ici, à confirmer sur le brochage de la carte).
+# Broches TX/RX : étiquetées TX et RX sur la Waveshare ESP32-C6-Zero (TX = GPIO16, RX = GPIO17), confirmé par la photo de la carte.
 # Étapes : 1) flasher et vérifier Wi-Fi/API; 2) boucle TX<->RX; 3) brancher au S21 via le convertisseur de niveau.
 # Ne pas utiliser le climate avant d'avoir vérifié que les lectures sont bonnes.
 esphome:

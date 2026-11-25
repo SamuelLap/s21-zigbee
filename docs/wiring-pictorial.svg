@@ -109,9 +109,9 @@
 <rect x="800" y="150" width="62" height="62" rx="3" fill="#3a4047" stroke="#6b737a"/><text class="lb" x="831" y="186" text-anchor="middle">ESP32-C6</text>
 <rect x="760" y="338" width="120" height="50" rx="3" fill="none" stroke="#6b737a" stroke-dasharray="4 3"/><text class="lb" x="820" y="367" text-anchor="middle" style="opacity:.7">antenne</text>
 <circle class="pin" cx="720" cy="170" r="4.5"/>
-<text class="lb" x="732" y="173.5">GPIO17 · RX</text>
+<text class="lb" x="732" y="173.5">RX · GPIO17</text>
 <circle class="pin" cx="720" cy="205" r="4.5"/>
-<text class="lb" x="732" y="208.5">GPIO16 · TX</text>
+<text class="lb" x="732" y="208.5">TX · GPIO16</text>
 <circle class="pin" cx="720" cy="240" r="4.5"/>
 <text class="lb" x="732" y="243.5">3V3</text>
 <circle class="pin" cx="720" cy="275" r="4.5"/>
@@ -120,8 +120,8 @@
 <text class="lb" x="732" y="313.5">5V</text>
 <circle class="pin" cx="720" cy="345" r="4.5"/>
 <text class="lb" x="732" y="348.5">GND</text>
-<text class="t tm" x="805" y="424" text-anchor="middle">positions des broches à vérifier</text>
-<text class="t tm" x="805" y="438" text-anchor="middle">sur la carte réelle</text>
+<text class="t tm" x="805" y="424" text-anchor="middle">dessin simplifié : sur la vraie carte, suivre</text>
+<text class="t tm" x="805" y="438" text-anchor="middle">les étiquettes 5V, GND, 3V3, TX, RX</text>
 <line x1="20" y1="535" x2="980" y2="535" stroke="#c9d1d8"/>
 <path class="wr c14" d="M24,561 L58,561"/>
 <text class="t" x="68" y="565">+14,5 V (nœud 1)</text>

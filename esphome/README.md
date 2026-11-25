@@ -24,4 +24,5 @@ Broche 1 (5 V) : non utilisée pour l'instant. Ne pas brancher l'USB pendant que
 ## Notes
 - Si les lectures sont fausses, essayer l'inversion `invert: true` sur la broche RX (selon le montage) : un convertisseur BSS138 n'inverse pas, mais d'autres schémas oui.
 - Certaines fonctions (POWERFUL, ECO) pourraient ne pas être commandables par S21 (discussion asund/esphome-daikin-s21 n° 202).
+- Sur la Waveshare ESP32-C6-Zero, TX = GPIO16 et RX = GPIO17 (étiquettes TX et RX en haut à droite); une seule broche GND est visible sur le bord gauche : relier les masses ensemble.
 - Sur ESP32-C6, un fil de discussion HA mentionne des difficultés d'UART; si besoin, valider d'abord avec une boucle TX/RX.
