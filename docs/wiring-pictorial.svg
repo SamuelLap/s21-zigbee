@@ -11,10 +11,8 @@
       .pin{fill:#d4af37;stroke:#7a5c00;stroke-width:1}
       .jn{fill:#14181d}
     </style>
-<path class="halo" d="M110,280 L150,280 L150,425 L170,425"/>
-<path class="wr c14" d="M110,280 L150,280 L150,425 L170,425"/>
-<path class="halo" d="M210,425 L230,425"/>
-<path class="wr c14" d="M210,425 L230,425"/>
+<path class="halo" d="M110,280 L150,280 L150,425 L230,425"/>
+<path class="wr c14" d="M110,280 L150,280 L150,425 L230,425"/>
 <path class="halo" d="M110,320 L130,320 L130,465 L230,465"/>
 <path class="wr c0" d="M110,320 L130,320 L130,465 L230,465"/>
 <path class="halo" d="M110,200 L330,200 L330,170 L440,170"/>
@@ -37,7 +35,6 @@
 <path class="wr cs2" d="M580,205 L720,205"/>
 <circle class="jn" cx="410" cy="425" r="5"/>
 <text class="t tm" x="165" y="296" text-anchor="middle">1</text>
-<text class="t tm" x="220" y="415" text-anchor="middle">1A</text>
 <text class="t tm" x="180" y="458" text-anchor="middle">0</text>
 <text class="t tm" x="220" y="192" text-anchor="middle">10</text>
 <text class="t tm" x="250" y="232" text-anchor="middle">13</text>
@@ -63,10 +60,6 @@
 
 <path d="M122,153 L138,167 M138,153 L122,167" stroke="#5b6670" stroke-width="2.5" fill="none"/>
 <text class="t tm" x="146" y="164" text-anchor="start">non raccordée</text>
-<rect x="170" y="417" width="40" height="16" rx="8" fill="#e8eef2" stroke="#2a2a2a" stroke-width="1.6"/>
-<rect x="170" y="417" width="8" height="16" rx="3" fill="#b0b7bd"/><rect x="202" y="417" width="8" height="16" rx="3" fill="#b0b7bd"/>
-<text class="t tb" x="190" y="410" text-anchor="middle">F1</text>
-<text class="t tm" x="190" y="448" text-anchor="middle">0,5 A</text>
 <text class="hd" x="230" y="385">U1 · MINI360</text>
 <rect x="230" y="395" width="150" height="100" rx="3" fill="#2f7d4f" stroke="#17402a" stroke-width="2"/>
 <rect x="282" y="407" width="54" height="54" rx="3" fill="#9aa3ab" stroke="#5f676e"/><text class="lb lbd" x="309" y="438" text-anchor="middle">100</text>
@@ -131,7 +124,7 @@
 <text class="t tm" x="805" y="438" text-anchor="middle">sur la carte réelle</text>
 <line x1="20" y1="535" x2="980" y2="535" stroke="#c9d1d8"/>
 <path class="wr c14" d="M24,561 L58,561"/>
-<text class="t" x="68" y="565">+14,5 V (nœuds 1, 1A)</text>
+<text class="t" x="68" y="565">+14,5 V (nœud 1)</text>
 <path class="wr c5" d="M344,561 L378,561"/>
 <text class="t" x="388" y="565">+5 V (nœud 2)</text>
 <path class="wr c33" d="M664,561 L698,561"/>
